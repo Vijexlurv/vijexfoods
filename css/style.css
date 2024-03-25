@@ -9,11 +9,44 @@ body {
   padding: 1rem;
   border-left: 1px solid #333;
   border-right: 1px solid #333;
+  background-color: #ffffff;
+  color: maroon;
 }
 
-th, td, caption {
+header h1 {
+  background-color: rgb(148, 15, 15);
+  color: rgb(251, 249, 246);
+  text-align: center;
+  padding: 1em 0;
+  margin-bottom: 0;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header nav ul li a {
+  color: darkblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+th,
+td,
+caption {
   border: 1px solid #333;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   border-collapse: separate;
   padding: 0.5rem;
+}
+
+footer {
+  background-color: rgb(235, 88, 88); /* Matching the header's vibrant purple */
+  color: #ffffff;
+  text-align: center;
+  padding: 1em 0;
 }
